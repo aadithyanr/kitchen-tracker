@@ -44,7 +44,7 @@ The application uses Firebase Firestore as its database to store pantry items. E
 1. #### Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/aadithyanr/kitchen-tracker.git
 
 cd your-repo-name
 
