@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-main: #3f51b5;
+  --secondary-dark: #5f6166;
+}
+
+.textField {
+  transition: all 0.3s ease;
+}
+
+.textField .MuiOutlinedInput-root:hover fieldset {
+  border-color: var(--primary-main);
+}
+
+.textField .MuiOutlinedInput-root.Mui-focused fieldset {
+  border-color: var(--primary-main);
+}
+
+.textField .MuiInputLabel-root {
+  color: var(--secondary-dark);
+}
+
+.textField .MuiInputLabel-root.Mui-focused {
+  color: var(--primary-main);
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #faf9f6;
+  border: 2px solid #000;
+  border-radius: 4px;
+  box-shadow: 24px 24px 24px rgba(0, 0, 0, 0.3);
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
